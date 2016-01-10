@@ -1,4 +1,4 @@
-# Exercise 1: Using Test Doubles
+# Using Test Doubles
 
 ## Description
 
@@ -9,30 +9,32 @@ Create a simple spend-tracking application that can:
   
 The summary should state:
 
-    > DATE       | AMOUNT SPENT | CATEGORY         | TOTAL  
-    > -----------+--------------+------------------+---------
-    > 2016-01-10 |       £35.83 | Groceries        | £226.79 
-    > 2015-12-21 |       £56.00 | Car:Fuel         | £190.96
-    > 2015-12-05 |      £134.96 | Gifts: Christmas | £134.96
+```
+> DATE       | AMOUNT SPENT | CATEGORY         | TOTAL  
+> -----------+--------------+------------------+---------
+> 2016-01-10 |       £35.83 | Groceries        | £226.79 
+> 2015-12-21 |       £56.00 | Car:Fuel         | £190.96
+> 2015-12-05 |      £134.96 | Gifts: Christmas | £134.96
+```
 
 ## Bootstrapping
 
 Start with an `Expenditure` class that looks like this:
 
-   ```csharp
-   public class Expenditure
-   {
-      public void Record(double amount)
-      {
-      
-      }
-      
-      public void Summarise()
-      {
-      
-      }
-   }
-   ```
+```csharp
+public class Expenditure
+{
+  public void Record(double amount)
+  {
+  
+  }
+  
+  public void Summarise()
+  {
+  
+  }
+}
+```
    
 **Note: You may not add any more public methods to the Expenditure class during this exercise.**
 
