@@ -43,5 +43,7 @@ To keep things simple (we're focussing on test doubles here, not principles of o
 ### What are the Test Double types again?
 
 🙈 **Fakes** are hand-rolled test-only implementations of a dependent interface. You completely control everything about this implementation, so you and your tests see no evil. 
+
 🙉 **Mocks** can be used when you want to assert that some method was called. You are verifying their behaviour to ensure your tests hear no evil.
+
 🙊 **Stubs** can be used to specify canned responses to requests that are made to a given dependency. You are stubbing out the wider environment to ensure your tests do not mislead you, that they speak no evil. 
