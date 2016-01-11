@@ -40,6 +40,8 @@ public class Expenditure
 
 To keep things simple (we're focussing on test doubles here, not principles of object orientation), use `double`s and `string`s to represent dates, amounts, etc.
 
+Test your implementation's interactions using all three of the different test double types. Start with Fakes, and pull in a mocking framework only when you feel it will make things easier for you. 
+
 ## FAQ
 
 ### What are the Test Double types again?
