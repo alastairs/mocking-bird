@@ -2,6 +2,12 @@
 
 ## Description
 
+Test your implementation's interactions using all three of the different test double types. Start with Fakes, and pull in a mocking framework only when you feel it will make things easier for you. 
+
+To keep things simple (we're focussing on test doubles here, not principles of object orientation), use `double`s and `string`s to represent dates, amounts, etc.
+
+### System specification
+
 Create a simple spend-tracking application that can:
 
   - Record spending on an ad-hoc basis
@@ -17,30 +23,26 @@ The summary should state:
 > 2015-12-05 |      £134.96 | Gifts: Christmas | £134.96
 ```
 
-## Bootstrapping
+### Bootstrapping
 
 Start with an `Expenditure` class that looks like this:
 
 ```csharp
 public class Expenditure
 {
-  public void Record(double amount)
-  {
+    public void Record(double amount)
+    {
+    
+    }
   
-  }
-  
-  public void Summarise()
-  {
-  
-  }
+    public void Summarise()
+    {
+    
+    }
 }
 ```
    
 **Note: You may not add any more public methods to the Expenditure class during this exercise.**
-
-To keep things simple (we're focussing on test doubles here, not principles of object orientation), use `double`s and `string`s to represent dates, amounts, etc.
-
-Test your implementation's interactions using all three of the different test double types. Start with Fakes, and pull in a mocking framework only when you feel it will make things easier for you. 
 
 ## FAQ
 
