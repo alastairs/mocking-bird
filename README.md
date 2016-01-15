@@ -11,6 +11,14 @@
 
 ## Exercise 1
 
-Check out the `test-doubles` branch. You'll find the exercise description in the README in the `test-doubles` folder.
+Check out the `test-doubles` branch. You'll find the exercise description in the [README](https://github.com/alastairs/mocking-bird/blob/test-doubles/test-doubles/README.md)
+in the `test-doubles` folder.
 
-Don't forget to push you work at the end of the exercise.
+Don't forget to push your work at the end of the exercise.
+
+## Exercise 2
+
+Check out the `contract-and-collaboration` branch. You'll find the exercise description in the [README](https://github.com/alastairs/mocking-bird/blob/contract-and-collaboration/contract-and-collaboration/README.md)
+in the `contract-and-collaboration` folder.
+
+Don't forget to push your work at the end of the exercise.
