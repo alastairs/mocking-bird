@@ -38,7 +38,7 @@ As before, start with an `Expenditure` class that looks like this:
 ```csharp
 public class Expenditure
 {
-    public void Record(double amount)
+    public void Record(double amount, string category)
     {
     
     }
